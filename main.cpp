@@ -1,3 +1,9 @@
+/**
+ * Lylian Bourgin
+ * labo Bureau de change
+ * 25.09.2026
+ * v 1.1 Ajout de commentaire et correction de certain type
+ */
 #include <iostream>
 #include <string>
 #include <windows.h>
@@ -32,7 +38,7 @@ int main() {
     float somme_demande_chf = somme_demande_euro / taux_change;
     argent_compte_bancaire -= (frais_operation + somme_demande_chf);
 
-    const int longeur_bordure = 30;
+    const short unsigned longeur_bordure = 30;
     const std::string bordure = "+" + std::string(longeur_bordure, '-') + "+";
     const char mur = '|';
 
